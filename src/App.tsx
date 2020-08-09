@@ -1,17 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Component} from './globalStyle'
+import {MainImage,BgImage,Main,Test} from './globalStyle'
 
 function App() {
   return (
-    <div className="App">
-        <Component
-    as="button"
-    onClick={() => alert('It works!')}
-  >
-    Hello World!
-  </Component>
+    <div>
+
+
+
+<Main>
+<BgImage>
+  <Test>
+  <MainImage src="https://www.and-love.com/wp/wp-content/themes/and/assets/images/top/main-logo.svg">
+      </MainImage>
+  </Test>
+
+      </BgImage>
+
+</Main>
+      
+    
+
     </div>
   );
 }
